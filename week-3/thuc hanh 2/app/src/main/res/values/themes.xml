@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Bth2" parent="android:Theme.Material.Light.NoActionBar" />
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="logo_size">120dp</dimen>
+</resources>

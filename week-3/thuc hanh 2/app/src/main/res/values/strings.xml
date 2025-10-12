@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">bth2</string>
+    <string name="title">Welcome to Jetpack Compose</string>
+    <string name="logo_desc">Jackpack Compose logo</string>
+    <string name="description">Jetpack Compose is a modern toolkit for building native Android UI. It simplifies and accelerates UI development on Android.</string>
+    <string name="button_text">I am ready</string>
+</resources>
