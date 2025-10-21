@@ -17,9 +17,11 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.bth2.R
+import com.example.bth2.ui.navigation.AppNavigation
+
 
 @Composable
-fun WelcomeScreen() {
+fun WelcomeScreen(onNext: ()-> Unit) {
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -63,7 +65,7 @@ fun WelcomeScreen() {
 
             // Nút “I’m ready”
             Button(
-                onClick = { /* TODO: Thêm sự kiện sau */ },
+                onClick = { onNext() },
                 colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF2196F3)),
                 modifier = Modifier
                     .fillMaxWidth()
@@ -80,3 +82,5 @@ fun WelcomeScreen() {
         }
     }
 }
+
+
