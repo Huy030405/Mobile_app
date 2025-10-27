@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "505718572203",
+    "project_id": "fir-baaab",
+    "storage_bucket": "fir-baaab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505718572203:android:08bd1b113e3b493de263ee",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPrQf5qaBz85hGoEWUWp1piNvJExzWqIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

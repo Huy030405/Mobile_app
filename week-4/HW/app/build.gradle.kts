@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -82,6 +83,9 @@ dependencies {
     implementation("androidx.compose.material3:material3:1.3.0")
     // với BOM
     implementation(platform("androidx.compose:compose-bom:2025.08.00"))
+
+    implementation(platform("com.google.firebase:firebase-bom:34.4.0"))
+    implementation("com.google.firebase:firebase-analytics")
 
 
 }
